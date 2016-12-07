@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/give_us_a_review_landmine_main_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="27sp"
+            android:paddingLeft="43sp"
+            android:paddingRight="43sp"
+            android:paddingTop="50sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intuit"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10sp"
+                android:paddingBottom="15sp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="♡"
+                    android:textColor="#ED6C27"
+                    android:textSize="70sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="U"
+                    android:textColor="@android:color/black"
+                    android:textSize="70sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/give_us_a_review_landmine_text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="12sp"
+                android:text="Rate us so we can grow and help more people get their finances in check"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/give_us_a_review_landmine_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="★★★★★"
+                android:textColor="#747474"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/give_us_a_review_landmine_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25sp"
+                android:padding="8sp"
+                android:text="Rate"
+                android:textSize="15sp"
+                android:visibility="visible"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:minWidth="120sp"
+                android:includeFontPadding="false"
+                android:background="#0ac775"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
