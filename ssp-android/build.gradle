@@ -83,7 +83,7 @@ task createSSP(type: SSPFactory) {
 }
 
 //uncomment next line to edit values
-preBuild.dependsOn createSSP
+//preBuild.dependsOn createSSP
 
 createSSP{
     unit = "sp"//change to "sp" if needed
