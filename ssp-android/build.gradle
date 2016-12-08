@@ -63,7 +63,7 @@ task createSSP(type: SSPFactory) {
 //preBuild.dependsOn createSSP
 
 createSSP{
-    unit = "sp"//change to "sp" if needed
+    unit = "sp"
     positiveMax = 100//change to 600 or any other value if needed
 }
 
