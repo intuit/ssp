@@ -27,7 +27,7 @@ To add ssp to your Android Studio project:
   
   ```
   dependencies {
-    compile 'com.intuit.ssp:ssp-android:1.0.4’
+    compile 'com.intuit.ssp:ssp-android:1.0.4'
   }
   ```
   
