@@ -21,13 +21,13 @@ You can see that ssp scales with the screen size and the sp stays with the same 
 
 To add ssp to your Android Studio project:
 
-  add compile 'com.intuit.ssp:ssp-android:1.0.4’ to your build.gradle dependencies block.
+  add compile 'com.intuit.ssp:ssp-android:1.0.5’ to your build.gradle dependencies block.
   
   for example:
   
   ```
   dependencies {
-    compile 'com.intuit.ssp:ssp-android:1.0.4'
+    compile 'com.intuit.ssp:ssp-android:1.0.5'
   }
   ```
   
