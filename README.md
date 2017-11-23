@@ -27,11 +27,13 @@ To add ssp to your Android Studio project:
   
   ```
   dependencies {
-    compile 'com.intuit.ssp:ssp-android:1.0.4’
+    compile 'com.intuit.ssp:ssp-android:1.0.4'
   }
   ```
   
 See the [ssp_example.xml](https://github.com/intuit/ssp/blob/master/ssp-android/src/main/res/layout/ssp_example.xml) to see how to use to the ssp size unit.
+
+For easy mapping of designs to ssp units, one can create designs with 300 pixels screen width - in this case each pixel in the design corresponds to 1 ssp.
 
 # Note
 The ssp size unit calculation includes some approximation due to some performance and usability constraints.
