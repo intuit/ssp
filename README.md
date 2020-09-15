@@ -1,5 +1,5 @@
 # SSP - a scalable size unit for texts
-An android SDK that provides a new size unit - ssp (scalable sp). This size unit scales with the screen size based on the sp size unit (for texts). It can help Android developers with supporting multiple screens.
+An android lib that provides a new size unit - ssp (scalable sp). This size unit scales with the screen size based on the sp size unit (for texts). It can help Android developers with supporting multiple screens.
 
 This is the sibling of the [sdp](https://github.com/intuit/sdp) size unit that should be used for non text views.
 
