@@ -1,3 +1,9 @@
+![issues](https://img.shields.io/github/issues/intuit/ssp)
+![Forks](https://img.shields.io/github/forks/intuit/ssp)
+![Stars](https://img.shields.io/github/stars/intuit/ssp)
+![Maven Central](https://img.shields.io/maven-central/v/com.intuit.ssp/ssp-android)
+![License](https://img.shields.io/github/license/intuit/ssp)
+
 # SSP - a scalable size unit for texts
 An android lib that provides a new size unit - ssp (scalable sp). This size unit scales with the screen size based on the sp size unit (for texts). It can help Android developers with supporting multiple screens.
 
@@ -27,7 +33,7 @@ To add ssp to your Android Studio project:
   
   ```
   dependencies {
-    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
   }
   ```
   
