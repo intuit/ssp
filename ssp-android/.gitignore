@@ -1,0 +1,8 @@
+build/generated/source/buildConfig/debug/com/intuit/ssp/BuildConfig.java
+build/
+.idea/
+.gradle/
+src/main/bin/
+src/main/gen/
+/local.properties
+/gradle.properties
