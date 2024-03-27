@@ -11,7 +11,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.android.tools.build:gradle:8.3.1'
     }
 }
 
@@ -24,12 +24,11 @@ repositories {
 }
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion "30.0.3"
-
+    namespace 'com.intuit.ssp'
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 32
+        targetSdkVersion 34
+        compileSdk 34
     }
 }
 
@@ -80,12 +79,10 @@ createSSP{
 publishing {
     publications {
         release(MavenPublication) {
-
-            artifactId = 'ssp-android'
             groupId = 'com.intuit.ssp'
-            version = '1.1.0'
+            artifactId = 'ssp-android'
+            version = '1.1.1'
             artifact("$buildDir/outputs/aar/ssp-android-release.aar")
-
             pom {
                 name = 'ssp'
                 description = 'A scalable size unit for Andorid'
